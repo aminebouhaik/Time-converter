@@ -1,6 +1,6 @@
 import datetime
 
-goal = input("Please enter your goal: ")
+goal = input("Please enter your goal please: ")
 deadline = input("Please enter the deadline by which you think you will be ready to achieve your goal (dd.mm.yyyy): ")
 
 deadline_date = datetime.datetime.strptime(deadline, "%d.%m.%Y")
